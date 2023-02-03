@@ -11,7 +11,7 @@ This code was inspired by [Javascript implementation](https://github.com/latitud
 ## Install
 
 ```bash
-go get github.com/samber/go-gpt-3-encoder
+go get github.com/sandwich-go/gpt3-encoder
 ```
 
 ## Usage
@@ -19,7 +19,7 @@ go get github.com/samber/go-gpt-3-encoder
 Compatible with Node >= 12
 
 ```go
-import tokenizer "github.com/samber/go-gpt-3-encoder"
+import tokenizer "github.com/sandwich-go/gpt3-encoder"
 
 encoder, err := tokenizer.NewEncoder()
 if err != nil {
